@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<main id="main">
+
+  <!-- ======= Portfolio Details Section ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider">
+            <div>
+              <img src="{% static 'img/team/TL-2564.png'%}" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="portfolio-info">
+            <h3>Tact</h3>
+            <ul>
+              <li><strong>Position</strong> : Founder</li>
+              <li><strong>Contact</strong> : <a href="http://discordapp.com/users/1014419904486703114" target="blank"><i
+                    class="ri-discord-fill"></i> Discord</a></li>
+            </ul>
+          </div>
+          <div class="portfolio-description">
+            <h2>Tact is a passionate crypto investor, business owner and experienced within sales and marketing.</h2>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Details Section -->
+
+</main><!-- End #main -->
+
+{% endblock %}

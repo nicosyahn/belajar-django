@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Toodlers | About, Roadmap, Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.ico'%}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png'%}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css'%}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css'%}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css'%}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.8.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="/base"><img src="{% static 'img/Toodlers-8-28-2022.png'%}" alt=""></a></h1>
+
+      <!-- Navbar -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/#hero">About</a></li>
+          <li><a class="nav-link scrollto" href="/#roadmap">Roadmap</a></li>
+          <li><a class="nav-link scrollto" href="/#detail">Details</a></li>
+          <li class="dropdown"><a href="/#team"><span>Teams</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/portfoliotact">Tact</a></li>
+              <li><a href="/portfoliozwei">Zweihender</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Tables</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/items">Items</a></li>
+              <li><a href="/memberships">Memberships</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="https://algoxnft.com/collection/toodlers" target="blank">Minted</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <!-- End Navbar -->
+
+    </div>
+  </header>
+
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h2>Tooodlers is a collection of 3333 NFTs that are carefully designed and created using professional
+            original
+            hands using the Algorand Blockchain by Mexican artists. TOODLERS holders can participate in
+            exclusive
+            events, such as: NFT claims, sweepstakes, prizes, and much more. Don't forget, all TOODLERS are
+            special --
+            but some are special too.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="https://discord.gg/bcMkthTd9F" target="blank" class="btn-get-started scrollto">Join Us</a>
+            <a href="https://twitter.com/ToodlersFam" target="blank" class="btn-follow-us"><i
+                class="bx bxl-twitter"></i><span>Follow Us</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{% static 'img/TL-1475.png'%}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- End Hero -->
+
+  <!-- End Header -->
+  <section id="content">
+    {% block content %}
+    {% endblock %}
+  </section>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <img src="{% static 'img/Toodlers-8-28-2022.png'%}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top text-center align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 footer-links">
+            <h4>COMMUNITY</h4>
+            <div class="social-links mt-3">
+              <a href="https://discord.gg/bcMkthTd9F" target="blank" class="discord"><i class="bx bxl-discord"></i></a>
+              <a href="https://twitter.com/ToodlersFam" target="blank" class="twitter"><i
+                  class="bx bxl-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6 footer-links">
+            <h4>RESOURCES</h4>
+            <ul class="">
+              <li><i class="bx bx-chevron-right"></i> <a href="/#hero">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#roadmap">Roadmap</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#detail">Details</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#team">Teams</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/items">Tables</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Toodlers</span></strong>. All Rights Reserved 2022
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/aos/aos.js'%}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js'%}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js'%}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js'%}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js'%}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js'%}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js'%}"></script>
+
+</body>
+
+</html>
